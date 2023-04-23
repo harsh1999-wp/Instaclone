@@ -1,9 +1,13 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:insta_clone/Aunthication/auth_method.dart';
+import 'package:insta_clone/Responsive/mobile_Screen.dart';
 import 'package:insta_clone/Screen/signup_screen.dart';
 import 'package:insta_clone/components/utils.dart';
 
+import '../Responsive/Responsive_layout.dart';
+import '../Responsive/Web_Screen.dart';
 import '../components/color.dart';
 import '../components/text_field.dart';
 
@@ -32,12 +36,11 @@ class _LoginscreenState extends State<Loginscreen> {
       _isloading =true;
     });
     String res= await AuthMethod().loginUser(email: _emailController.text, password: _passwordController.text);
-  if(res=='sucess'){
-
+  if(res == 'success'){
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>mobile_Screen(),),);
   }
   else {
     showSnackBar(res, context);
-
     setState(() {
       _isloading =false;
     });
@@ -54,23 +57,22 @@ class _LoginscreenState extends State<Loginscreen> {
           child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Flexible(child: Container(), flex: 2),
+                Flexible(flex: 2, child: Container()),
                 SvgPicture.asset(
                   'assets/instagram.svg', color: primaryColor, height: 64,),
-                SizedBox(height: 64,),
+                const SizedBox(height: 64,),
                 Textfield(textInputType: TextInputType.emailAddress,
                     hintText: 'Enter the email',
                     textEditingController: _emailController),
-                SizedBox(height: 34,),
+                const SizedBox(height: 34,),
                 Textfield(textInputType: TextInputType.emailAddress,
                   hintText: 'Enter the password',
                   textEditingController: _passwordController,
                   isPass: true,),
-                SizedBox(height: 35,),
+                const SizedBox(height: 35,),
                 InkWell(
                   onTap: loginUser,
                   child: Container(
-                    child:_isloading ?const Center(child: CircularProgressIndicator(color: primaryColor,),) :const Text('Log in'),
                     width: double.infinity,
                     alignment: Alignment.center,
                     padding: const EdgeInsets.symmetric(vertical: 12),
@@ -80,24 +82,26 @@ class _LoginscreenState extends State<Loginscreen> {
                       ),
                       color: blueColor,
                     ),
+                    child:_isloading ?const Center(
+                      child: CupertinoActivityIndicator(color: primaryColor,),)
+                        :const Text('Log in'),
                   ),
                 ),
                 const SizedBox(height: 12,),
-                Flexible(child: Container(), flex: 2,),
+                Flexible(flex: 2,child: Container(),),
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Container(child: Text("Don't have account?"),
-                      padding: const EdgeInsets.symmetric(
+                    Container(padding: const EdgeInsets.symmetric(
                         vertical: 8,
-                      ),
+                      ),child: const Text("Don't have account?"),
                     ),
                     GestureDetector(onTap: () {
                       Navigator.push(context, MaterialPageRoute(
-                        builder: (context) => Signupscreen(),),);
+                        builder: (context) => const Signupscreen(),),);
                     },
-                        child: Text(" Sign up",
+                        child: const Text(" Sign up",
                           style: TextStyle(fontWeight: FontWeight.bold),)),
                   ],
                 ),

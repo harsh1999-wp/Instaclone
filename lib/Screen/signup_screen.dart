@@ -1,10 +1,14 @@
 import 'dart:typed_data';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:insta_clone/Aunthication/auth_method.dart';
+import 'package:insta_clone/Screen/login_screen.dart';
 import 'package:insta_clone/components/utils.dart';
 
+import '../Responsive/Responsive_layout.dart';
+import '../Responsive/Web_Screen.dart';
 import '../components/color.dart';
 import '../components/text_field.dart';
 
@@ -52,7 +56,9 @@ class _SignupscreenState extends State<Signupscreen> {
     if (res != 'sucess') {
       showSnackBar(res, context);
     }
-    else {}
+    else {
+      Navigator.push(context, MaterialPageRoute(builder: (context)=>Resposive_layout(webScreenLayout: Web_Screen(), mobileScreenLayout:Loginscreen())));
+    }
   }
     void selectImage() async {
       Uint8List im = await pickImage(ImageSource.gallery);
@@ -137,7 +143,7 @@ class _SignupscreenState extends State<Signupscreen> {
                         ),
                         color: blueColor,
                       ),
-                      child: _isloading? const Center(child: CircularProgressIndicator(
+                      child: _isloading? const Center(child: CupertinoActivityIndicator(
                         color: Colors.white,
                       ),):const Text('Sign up'),
                     ),
@@ -151,10 +157,12 @@ class _SignupscreenState extends State<Signupscreen> {
                     children: [
                       Container(padding: const EdgeInsets.symmetric(
                           vertical: 8,
-                        ),child: const Text("Don't have account?"),
+                        ),child: const Text("Already have account?"),
                       ),
-                      GestureDetector(onTap: () {},
-                          child: const Text(" Sign up",
+                      GestureDetector(onTap: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Loginscreen()),);
+                      },
+                          child: const Text("Login",
                             style: TextStyle(fontWeight: FontWeight.bold),)),
                     ],
                   ),

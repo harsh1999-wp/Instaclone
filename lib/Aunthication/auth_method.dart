@@ -6,6 +6,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_clone/Aunthication/storageMethod.dart';
 import 'package:insta_clone/components/utils.dart';
+import 'package:insta_clone/model/User.dart' as model;
 
 class AuthMethod{
   final FirebaseAuth _auth=FirebaseAuth.instance;
@@ -29,16 +30,13 @@ class AuthMethod{
 
        String photourl =await storageMethod().UploadImageToStorage('profilePics', file, false);
 
+       model.User user=  model.User( username:'username',
+           uid:'uid',
+           email:'email',
+           bio:'bio',
+           photourl:'photourl');
        // add user to database
-       await _firestore.collection('user').doc(cred.user!.uid).set({
-         'username':username,
-         'uid':cred.user!.uid,
-         'email':email,
-         'bio':bio,
-         'followers':[],
-         'following':[],
-         'photourl':photourl,
-       });
+       await _firestore.collection('user').doc(cred.user!.uid).set(user.toJson());
 
 
        // await _firestore.collection('user').add({
@@ -61,10 +59,11 @@ class AuthMethod{
     required String email,
     required String password,
 })async{
-   String res="Some error occured";
+   String res="Some error occurred";
    try{
      if(email.isNotEmpty || password.isNotEmpty){
        await _auth.signInWithEmailAndPassword(email: email, password: password);
+       res='success';
      }
      else{
        res="please enter all the field";

@@ -30,10 +30,28 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Insta',
       theme: ThemeData.dark().copyWith(scaffoldBackgroundColor: mobileBackgroundColor),
-      home: SafeArea(
-        child: Scaffold(
-          body: Resposive_layout(webScreenLayout: Web_Screen(), mobileScreenLayout:Loginscreen()),
-        ),
+      // home: SafeArea(
+      //   child: Scaffold(
+      //     body:
+      home: StreamBuilder(
+        stream: FirebaseAuth.instance.authStateChanges(),
+        builder: (context, snapshot){
+          if(snapshot.connectionState == ConnectionState.active){
+            if(snapshot.hasData){
+              return Resposive_layout(webScreenLayout: Web_Screen(), mobileScreenLayout:Loginscreen());
+              }
+            else if(snapshot.hasError){
+              return Center(
+                child: Text('${snapshot.error}'),
+              );
+            }
+            }
+          if(snapshot.connectionState == ConnectionState.waiting){
+            return const Center(child: CircularProgressIndicator(color: primaryColor,),);
+          }
+          return const Loginscreen();
+          }
+
       ),
     );
   }
