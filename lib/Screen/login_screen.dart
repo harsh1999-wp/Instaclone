@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:insta_clone/Aunthication/auth_method.dart';
 import 'package:insta_clone/Screen/signup_screen.dart';
+import 'package:insta_clone/components/utils.dart';
 
 import '../components/color.dart';
 import '../components/text_field.dart';
@@ -13,8 +15,9 @@ class Loginscreen extends StatefulWidget {
 }
 
 class _LoginscreenState extends State<Loginscreen> {
-  final TextEditingController _emailController=TextEditingController();
-  final TextEditingController _passwordController=TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+  bool _isloading = false;
 
   @override
   void dispose() {
@@ -23,6 +26,24 @@ class _LoginscreenState extends State<Loginscreen> {
     _emailController.dispose();
     _passwordController.dispose();
   }
+
+  void loginUser() async{
+    setState(() {
+      _isloading =true;
+    });
+    String res= await AuthMethod().loginUser(email: _emailController.text, password: _passwordController.text);
+  if(res=='sucess'){
+
+  }
+  else {
+    showSnackBar(res, context);
+
+    setState(() {
+      _isloading =false;
+    });
+   }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,29 +54,31 @@ class _LoginscreenState extends State<Loginscreen> {
           child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Flexible(child: Container(),flex: 2),
-                SvgPicture.asset('assets/instagram.svg',color:primaryColor,height: 64,),
+                Flexible(child: Container(), flex: 2),
+                SvgPicture.asset(
+                  'assets/instagram.svg', color: primaryColor, height: 64,),
                 SizedBox(height: 64,),
-                Textfield(textInputType: TextInputType.emailAddress, hintText: 'Enter the email', textEditingController: _emailController),
+                Textfield(textInputType: TextInputType.emailAddress,
+                    hintText: 'Enter the email',
+                    textEditingController: _emailController),
                 SizedBox(height: 34,),
-                Textfield(textInputType: TextInputType.emailAddress, hintText: 'Enter the password', textEditingController: _passwordController,isPass: true,),
+                Textfield(textInputType: TextInputType.emailAddress,
+                  hintText: 'Enter the password',
+                  textEditingController: _passwordController,
+                  isPass: true,),
                 SizedBox(height: 35,),
                 InkWell(
-                  // TODO: remove gesturedetector
-                  child: GestureDetector(
-                    onTap: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=>const Signupscreen()),);
-                    },
-                    child: Container(
-                      child: const Text('Log in'),
-                      width: double.infinity,
-                      alignment: Alignment.center,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
-                      decoration: const ShapeDecoration(shape: RoundedRectangleBorder(
+                  onTap: loginUser,
+                  child: Container(
+                    child:_isloading ?const Center(child: CircularProgressIndicator(color: primaryColor,),) :const Text('Log in'),
+                    width: double.infinity,
+                    alignment: Alignment.center,
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                    decoration: const ShapeDecoration(
+                      shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(4)),
                       ),
-                        color: blueColor,
-                      ),
+                      color: blueColor,
                     ),
                   ),
                 ),
@@ -66,13 +89,16 @@ class _LoginscreenState extends State<Loginscreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(child: Text("Don't have account?"),
-                    padding: const EdgeInsets.symmetric(
-                      vertical: 8,
+                      padding: const EdgeInsets.symmetric(
+                        vertical: 8,
+                      ),
                     ),
-                    ),
-                    GestureDetector(onTap:(){
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=>Signupscreen(),),);
-                    },child: Text(" Sign up",style: TextStyle(fontWeight: FontWeight.bold),)),
+                    GestureDetector(onTap: () {
+                      Navigator.push(context, MaterialPageRoute(
+                        builder: (context) => Signupscreen(),),);
+                    },
+                        child: Text(" Sign up",
+                          style: TextStyle(fontWeight: FontWeight.bold),)),
                   ],
                 ),
               ]
@@ -82,4 +108,3 @@ class _LoginscreenState extends State<Loginscreen> {
     );
   }
 }
-
