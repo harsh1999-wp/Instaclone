@@ -68,6 +68,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "crypto",
+      "rootUri": "file:///C:/Users/harsh/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///C:/Users/harsh/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.5",
       "packageUri": "lib/",
@@ -332,6 +338,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///C:/Users/harsh/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-3.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "vector_graphics",
       "rootUri": "file:///C:/Users/harsh/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics-1.1.5",
       "packageUri": "lib/",
@@ -368,7 +380,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-04-24T12:33:56.471221Z",
+  "generated": "2023-05-01T17:25:51.150833Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

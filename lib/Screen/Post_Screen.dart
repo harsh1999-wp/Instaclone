@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:insta_clone/Aunthication/FirestoreMethods.dart';
 import 'package:insta_clone/components/color.dart';
 import 'package:insta_clone/components/utils.dart';
 import 'package:insta_clone/provider/user_provider.dart';
@@ -19,7 +20,25 @@ class Post_Screen extends StatefulWidget {
 
 class _Post_ScreenState extends State<Post_Screen> {
   Uint8List? _file;
-  final TextEditingController _discription = TextEditingController();
+  final TextEditingController _discriptionController = TextEditingController();
+
+  void postImage(
+      String uid,
+      String username,
+      String profImage,
+      )async{
+    try{
+      String res =await FirestoreMethods().uploadPost(_discriptionController.text, _file!, uid, username, profImage);
+      if(res == 'success'){
+        showSnackBar('Posted!', context);
+      }else{
+        showSnackBar(res, context);
+      }
+    }
+    catch(err){
+      showSnackBar(err.toString(), context);
+    }
+  }
 
   _selectImage(BuildContext context)async{
     return showDialog(context: context, builder: (context){
@@ -61,6 +80,12 @@ class _Post_ScreenState extends State<Post_Screen> {
   }
 
   @override
+  void dispose() {
+    super.dispose();
+    _discriptionController.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
 
     final User user = Provider.of<UserProvider>(context).getUser;
@@ -78,7 +103,7 @@ class _Post_ScreenState extends State<Post_Screen> {
         title: const Text('Post to'),
         centerTitle: false,
         actions: [
-          ElevatedButton(onPressed:(){}, child: const Text('POST',style: TextStyle(color: Colors.white),),)
+          ElevatedButton(onPressed:() =>postImage(user.uid, user.username, user.photourl), child: const Text('POST',style: TextStyle(color: Colors.white),),)
         ],
       ),
       body: Column(
@@ -94,7 +119,7 @@ class _Post_ScreenState extends State<Post_Screen> {
               SizedBox(
                 width: MediaQuery.of(context).size.width*0.45,
                 child: TextField(
-                  controller: _discription,
+                  controller: _discriptionController,
                   decoration:  const InputDecoration(
                     hintText: 'write a caption ',
                     border: InputBorder.none,
