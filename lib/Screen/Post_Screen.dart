@@ -21,18 +21,28 @@ class Post_Screen extends StatefulWidget {
 class _Post_ScreenState extends State<Post_Screen> {
   Uint8List? _file;
   final TextEditingController _discriptionController = TextEditingController();
-
+  bool _isloading =  false;
   void postImage(
       String uid,
       String username,
       String profImage,
       )async{
+    setState(() {
+      _isloading =true;
+    });
     try{
       String res =await FirestoreMethods().uploadPost(_discriptionController.text, _file!, uid, username, profImage);
       if(res == 'success'){
+        setState(() {
+          _isloading =false;
+        });
         showSnackBar('Posted!', context);
       }else{
+        setState(() {
+        _isloading =true;
+      });
         showSnackBar(res, context);
+        clearImage();
       }
     }
     catch(err){
@@ -85,6 +95,12 @@ class _Post_ScreenState extends State<Post_Screen> {
     _discriptionController.dispose();
   }
 
+  void clearImage(){
+    setState(() {
+      _file =null;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
 
@@ -98,7 +114,7 @@ class _Post_ScreenState extends State<Post_Screen> {
     : Scaffold(
       appBar: AppBar(
         backgroundColor: mobileBackgroundColor,
-        leading: IconButton(onPressed: () {  }, icon: const Icon(Icons.arrow_back),
+        leading: IconButton(onPressed: () =>clearImage(), icon: const Icon(Icons.arrow_back),
         ),
         title: const Text('Post to'),
         centerTitle: false,
@@ -108,6 +124,8 @@ class _Post_ScreenState extends State<Post_Screen> {
       ),
       body: Column(
         children: [
+          _isloading ? const LinearProgressIndicator() : const Padding(padding: EdgeInsets.only(top: 0),),
+          const Divider(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.start,
