@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_clone/components/color.dart';
+import 'package:insta_clone/components/constant.dart';
 import 'package:insta_clone/model/User.dart' as model;
 
 
@@ -35,28 +36,30 @@ class _mobile_ScreenState extends State<mobile_Screen> {
      pageController.jumpToPage(page);
   }
 
+  void onPageChanged(int page){
+    setState(() {
+      _page= page;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     // model.User user = Provider.of<UserProvider>(context).getUser;
     return Scaffold(
-      body: PageView(children: [
-        Text('feed'),
-        Text('serch'),
-        Text('add'),
-        Text('like'),
-        Text('profile'),
-
-      ],
-        controller: pageController,
+      
+      body: SafeArea(
+        child: PageView(children:khomeScreenItems,
+          physics: const NeverScrollableScrollPhysics(),
+          controller: pageController,
+          onPageChanged: onPageChanged,
+        ),
       ),
       bottomNavigationBar: CupertinoTabBar(
         backgroundColor: mobileBackgroundColor,
         items: [
           BottomNavigationBarItem(icon: Icon(
             Icons.home, color: _page == 1 ? primaryColor : secondaryColor,),
-            label: '',
-            backgroundColor: primaryColor,),
+            label: '',),
           BottomNavigationBarItem(icon: Icon(
             Icons.search, color: _page == 2 ? primaryColor : secondaryColor,),
             label: '',

@@ -15,11 +15,11 @@ void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   if(kIsWeb){
     await Firebase.initializeApp(
-      options: const FirebaseOptions(apiKey: "AIzaSyC5d6GQg0Rc1hNicXEoq98UdFYQmWUYCfA", appId: "AIzaSyC5d6GQg0Rc1hNicXEoq98UdFYQmWUYCfA", messagingSenderId: "205105846550", projectId: "1:205105846550:web:3ba81aac88df4256359837",storageBucket: "insta-clone-4986f.appspot.com",),
+      options:  FirebaseOptions(apiKey: "AIzaSyC5d6GQg0Rc1hNicXEoq98UdFYQmWUYCfA", appId: "AIzaSyC5d6GQg0Rc1hNicXEoq98UdFYQmWUYCfA", messagingSenderId: "205105846550", projectId: "1:205105846550:web:3ba81aac88df4256359837",storageBucket: "insta-clone-4986f.appspot.com",),
     );
   }
   await Firebase.initializeApp();
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -53,9 +53,9 @@ class MyApp extends StatelessWidget {
               }
               }
             if(snapshot.connectionState == ConnectionState.waiting){
-              return const Center(child: CircularProgressIndicator(color: primaryColor,),);
+              return  Center(child: CircularProgressIndicator(color: primaryColor,),);
             }
-            return const Loginscreen();
+            return  Loginscreen();
             }
 
         ),
