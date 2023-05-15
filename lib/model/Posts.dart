@@ -21,6 +21,7 @@ class Post{
         required this.datePublished,
         required this.profImage,
         this.likes,
+        required String postId,
       }
       );
 
@@ -37,6 +38,6 @@ class Post{
   static Post fromSnap(DocumentSnapshot snap){
     var snapshot =snap.data() as Map<String,dynamic>;
 
-    return Post( uid: snapshot['uid'], photourl: snapshot['photourl'], username: snapshot['username'], likes: snapshot['likes'], discription: snapshot['discription'], datePublished:snapshot ['datePublished'], profImage: snapshot['profImage']);
+    return Post( uid: snapshot['uid'], photourl: snapshot['photourl'], username: snapshot['username'], likes: snapshot['likes'], discription: snapshot['discription'], datePublished:snapshot ['datePublished'], profImage: snapshot['profImage'], postId: '');
   }
 }

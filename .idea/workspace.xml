@@ -10,10 +10,284 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bfe475c-b2b2-4bac-94a7-3bca201385c1" name="Changes" comment="app bar">
-      <change afterPath="$PROJECT_DIR$/lib/Screen/FeedScreen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/components/Post_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Asset Store/assets.db/000009.ldb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Asset Store/assets.db/000010.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EntityExtraction/EntityExtractionAssetStore.db/LOG.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/000012.ldb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/000015.ldb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/000017.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/000019.ldb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/LOG.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/IndexedDB/http_localhost_64879.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/JumpListIconsRecentClosed/6bfb0a7e-4079-491c-84bc-59ab3aee52f3.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/JumpListIconsRecentClosed/6debd79d-dec8-4b28-b28d-da5f56a9ba3d.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/JumpListIconsRecentClosed/c60743a7-89c7-4edf-aea4-b40becb9ea2f.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/53d96f2f-0b76-472e-b446-ac5421b663db/aaabed2d5c8d4bdd_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/53d96f2f-0b76-472e-b446-ac5421b663db/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/53d96f2f-0b76-472e-b446-ac5421b663db/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/02fce7675bd3ea92_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/02fce7675bd3ea92_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/07f7d29ab331ecb9_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/09e5178ed9c9d8d5_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/0bb7fc906a4bb6b3_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/0bb946633770aa8d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/0bb946633770aa8d_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/0e68e8d002a77722_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/1375e73044422a6f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/1837d1957551d17d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/1e6813ee4e7e9fb7_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/1e6813ee4e7e9fb7_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/1f6dd68577e40233_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/20422662e8a81a96_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/22d1a946ff38f3b7_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/22d1a946ff38f3b7_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/2395ca2dda7ce59e_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/27536d383a78e158_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/280182f147908146_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/294fbaa68689a578_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/2d86e96d9d3425e0_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/2d86e96d9d3425e0_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/2ff86eee4cc3cb77_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/308d6ae861f7a467_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/322d7f3f2f35a19a_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/33351ae0299fa25c_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/33351ae0299fa25c_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/33ce0ef47eba579f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/33ce0ef47eba579f_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/35c63f0bc2b8c0dc_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/39dc463b931ef0b1_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/39dc463b931ef0b1_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/3bcdae065b51a431_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/3bcdae065b51a431_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/3c806a0b1b224a97_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/3ebaf65bb80b5b3b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/3f49395098c34556_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/3fd3864bf08c1550_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/4748d9da3fa97382_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/4748d9da3fa97382_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/4c21df80ede65270_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/4c21df80ede65270_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/564e8eded6296f8f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/58a9c744c57918b9_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/597a7dd4e0937e8b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/5cf9785932f2f4d9_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/5cf9785932f2f4d9_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/5d4cf2813cdcc73f_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/5d4cf2813cdcc73f_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/62688076e78f0288_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/62688076e78f0288_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/62f0a5b67f6dbef0_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/6420f96f53be7b28_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/68c2316978f398e3_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/6b354ecea8af679e_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/6de319a5a64d6038_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/6edf0c9e516635fd_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/75e2db183645c3a6_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/7724c4b25197e63b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/7b27a0c957aca0f8_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/7b27a0c957aca0f8_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8376f65b5f067c64_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8376f65b5f067c64_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/86818c2050e13903_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/88dbe677bd1e1da4_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/89daf08687dcf7e8_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/89daf08687dcf7e8_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8b0d2d2c2fb81102_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8b34db7f659f57c6_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8ccfea4e632e85e7_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8ccfea4e632e85e7_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8f11519cd161218d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8f5099db2ebbf508_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8f6c60497961a2d5_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/8f6c60497961a2d5_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/91446ada680e9744_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/97f6c6f904c52489_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/995577cba2132f80_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/995577cba2132f80_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/99aef5b360a821cc_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/9a78bed090dcfcce_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/9c79f97e92d8bf1d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/a0fd91d2ddf6ce88_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/a3e4b2fbf21f4291_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/a425873c47a9f9f2_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/ace89f729562c3ce_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/aed01c790bb523cc_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/aef2323927282a18_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/aef2323927282a18_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/b2381eedcd722206_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/bdaa345810384f6c_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/bdaa345810384f6c_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/bdeef11b7c3f334e_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/bdeef11b7c3f334e_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/bef49be6a208e8fc_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/bef49be6a208e8fc_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/c31e00c8c020d62c_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/c48152af8dfb4f21_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/c48152af8dfb4f21_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/ca8545b8d42aad09_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/ca8545b8d42aad09_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/cb3a960788575f7a_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/cd1a183427f0353d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/cf0181ff1910d37b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/cfe10425e3c33e78_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/d0176c7925ef7c64_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/d05153995deedbe2_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/d176757e05d1ad59_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/d245ef44bbb4b8b6_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/d57b9e156723b377_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/d7832f89c9e9dcd3_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/d7832f89c9e9dcd3_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/dbb0e0d6347c33ae_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/dd246896e276197e_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/e4bd6544c888a0d4_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/e9573c336b074804_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/e9573c336b074804_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/ed0a80d844b4e064_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/ed6fa32fc5ce9f55_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/ee18cb08e38bd9ca_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/efbc4c762673677b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/efbc4c762673677b_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/f1aa9e97317be0b7_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/f39c3c0068c71d4d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/f53dcf92a728688e_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/f53dcf92a728688e_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/f5db0d635f2acbc8_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/f6bf4bb5662a9c8b_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/f6bf4bb5662a9c8b_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/ff9e7a2eb6981ed0_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/ff9e7a2eb6981ed0_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/e4a360aa-88b9-4f7a-a0fd-1878cd2eec72/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/CacheStorage/72e511d29b33270da71d475a8742696ad332fdd1/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/013888a1cda32b90_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/08b99d499107ba17_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/08b99d499107ba17_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/7b4fd8111178d5b1_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/7b4fd8111178d5b1_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sessions/Session_13328616254753680" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sessions/Tabs_13328616308909628" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mbmgnelfcpoecdepckhlhegpcehmpmji/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mbmgnelfcpoecdepckhlhegpcehmpmji/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mbmgnelfcpoecdepckhlhegpcehmpmji/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mbmgnelfcpoecdepckhlhegpcehmpmji/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mbmgnelfcpoecdepckhlhegpcehmpmji/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Applications/Manifest Resources/nekhfanjngcbclojdihjgppnndajoona/Icons/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/18005a9e896c0c15655fb95e006c6b1c/_composite.stamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/18005a9e896c0c15655fb95e006c6b1c/gen_dart_plugin_registrant.stamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/18005a9e896c0c15655fb95e006c6b1c/gen_localizations.stamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/d2250437cd2797886fcf0d3395b1b8f5.cache.dill.track.dill" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/flutter_assets/AssetManifest.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/flutter_assets/shaders/ink_sparkle.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/flutter/ephemeral/.plugin_symlinks/firebase_core" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Asset Store/assets.db/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Asset Store/assets.db/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Asset Store/assets.db/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Asset Store/assets.db/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Asset Store/assets.db/MANIFEST-000001" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Asset Store/assets.db/MANIFEST-000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Bookmarks" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Bookmarks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Bookmarks.bak" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Bookmarks.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Collections/collectionsSQLite" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Collections/collectionsSQLite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgeCoupons/coupons_data.db/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgeCoupons/coupons_data.db/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgeCoupons/coupons_data.db/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgeCoupons/coupons_data.db/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgeCoupons/coupons_data.db/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgeCoupons/coupons_data.db/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgePushStorageWithConnectTokenAndKey/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgePushStorageWithConnectTokenAndKey/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgePushStorageWithConnectTokenAndKey/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgePushStorageWithConnectTokenAndKey/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgePushStorageWithConnectTokenAndKey/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EdgePushStorageWithConnectTokenAndKey/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EntityExtraction/EntityExtractionAssetStore.db/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EntityExtraction/EntityExtractionAssetStore.db/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EntityExtraction/EntityExtractionAssetStore.db/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EntityExtraction/EntityExtractionAssetStore.db/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EntityExtraction/domains_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/EntityExtraction/domains_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Extension State/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Extension State/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Extension State/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Extension State/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Favicons" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Favicons" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/History" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/History" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/History-journal" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/History-journal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/HubApps" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/HubApps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/HubApps Icons" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/HubApps Icons" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Local Storage/leveldb/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Local Storage/leveldb/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Login Data" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Login Data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network Action Predictor" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network Action Predictor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network/Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network/Cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network/Network Persistent State" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network/Network Persistent State" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network/Reporting and NEL" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network/Reporting and NEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network/TransportSecurity" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Network/TransportSecurity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Password_Diagnostics/PMLog_13326472747242953" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Password_Diagnostics/PMLog_13326472747242953" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Preferences" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Secure Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Secure Preferences" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/Database/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/Database/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/Database/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/Database/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/Database/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index-dir/the-real-index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Session Storage/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Site Characteristics Database/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/LevelDB/000007.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/LevelDB/000007.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/Logs/cv_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/Logs/cv_debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/Nigori.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Data/Nigori.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/ifoakfbpdcdoeenechcleahebpibofpc/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/ifoakfbpdcdoeenechcleahebpibofpc/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/ifoakfbpdcdoeenechcleahebpibofpc/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/ifoakfbpdcdoeenechcleahebpibofpc/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mnjggcdmjocbbbhaepdhchncahnbgone/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mnjggcdmjocbbbhaepdhchncahnbgone/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mnjggcdmjocbbbhaepdhchncahnbgone/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mnjggcdmjocbbbhaepdhchncahnbgone/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mnjggcdmjocbbbhaepdhchncahnbgone/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Sync Extension Settings/mnjggcdmjocbbbhaepdhchncahnbgone/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Trusted Vault" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Trusted Vault" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Visited Links" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Visited Links" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Data" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Web Data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/WebStorage/QuotaManager" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/WebStorage/QuotaManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/WebStorage/QuotaManager-journal" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/WebStorage/QuotaManager-journal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/load_statistics.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/load_statistics.db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/load_statistics.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/load_statistics.db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/metadata/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/metadata/000003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/constant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_assets/NOTICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Aunthication/FirestoreMethods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Aunthication/FirestoreMethods.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Aunthication/storageMethod.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Aunthication/storageMethod.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Screen/FeedScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screen/FeedScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Screen/Post_Screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screen/Post_Screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/Post_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/Post_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/Posts.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/Posts.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +318,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/harsh/Desktop/Harsh/Flutter/insta_clone&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "C:/Users/harsh/Desktop/Harsh/Flutter/insta_clone",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\harsh\Desktop\Harsh\Flutter\insta_clone\lib\model" />

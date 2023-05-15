@@ -14,8 +14,9 @@ class storageMethod{
 
     if(ispost){
       String id =const Uuid().v1();
-     ref= ref.child(id);
+     ref = ref.child(id);
     }
+
     UploadTask uploadTask = ref.putData(file);
 
     TaskSnapshot snap= await uploadTask;
